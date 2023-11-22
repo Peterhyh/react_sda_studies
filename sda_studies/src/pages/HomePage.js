@@ -1,12 +1,16 @@
-
+import NavBar from '../components/NavBar'
 
 const HomePage = () => {
     return (
-        <>
-            <h1>
-                HOME PAGE
+        <div className='home-container'>
+            <div className='navbar-container'>
+                <NavBar />
+            </div>
+
+            <h1 className='home-title'>
+                SDA Studies
             </h1>
-        </>
+        </div>
     );
 };
 
